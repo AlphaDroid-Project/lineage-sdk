@@ -33,6 +33,12 @@ public class Build {
     /** A build ID string meant for displaying to the user */
     public static final String CRDROID_DISPLAY_VERSION = getString("ro.crdroid.display.version");
 
+    /** A build ID utilized to distinguish lineageos and crDroid versions */
+    public static final String ALPHA_VERSION = getString("ro.alpha.version");
+
+    /** A build ID string meant for displaying to the user */
+    public static final String ALPHA_DISPLAY_VERSION = getString("ro.alpha.display.version");
+
     private static final SparseArray<String> sdkMap;
     static
     {
