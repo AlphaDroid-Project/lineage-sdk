@@ -9,6 +9,11 @@
     <string name="permlab_modifyProfiles">تغییر پروفایل‌های سیستم</string>
     <string name="permdesc_modifyProfiles">به برنامه اجازه می‌دهد تا پروفایل‌های سیستم را تغییر دهد.</string>
     <string name="permlab_useHardwareFramework">استفاده از چارچوب سخت‌افزار</string>
+    <string name="permdesc_useHardwareFramework">به برنامه اجازه می‌دهد به چارچوب سخت‌افزار لاینیج دسترسی داشته باشد.</string>
+    <string name="permlab_writeSettings">تغییر تنظیمات سیستم لاینیج</string>
+    <string name="permdesc_writeSettings">به برنامه اجازه می‌دهد که تنظیمات سیستم لاینیج را تغییر دهد.</string>
+    <string name="permlab_writeSecureSettings">تغییر تنظیمات امنیت سیستم لاینیج</string>
+    <string name="permdesc_writeSecureSettings">به برنامه اجازه می‌دهد تا تنظیمات امنیت سیستم لاینیج را تغییر دهد. برای استفاده برنامه‌های عادی پیشنهاد نمی‌شود.</string>
     <string name="profileNameDefault">پیش‌فرض</string>
     <string name="profileNameWork">کار</string>
     <string name="profileNameHome">خانه</string>
@@ -21,6 +26,12 @@
     <string name="profileGroupEmail">ایمیل</string>
     <string name="profileGroupSMS">پیامک</string>
     <string name="wildcardProfile">غیره</string>
+    <string name="live_display_auto">خودکار</string>
+    <string name="live_display_auto_summary">تنظیم خودکار درجه حرارت رنگ صفحه نمایش از غروب و طلوع آفتاب</string>
+    <string name="live_display_off">خاموش</string>
+    <string name="live_display_off_summary">غیر فعال کردن همه تنظیمات</string>
+    <string name="live_display_day">روز</string>
+    <string name="live_display_day_summary">تنها استفاده از تنظیمات روز</string>
     <string name="live_display_night">شب</string>
     <string name="live_display_night_summary">تنها استفاده از تنظیمات شب</string>
     <string name="live_display_outdoor">فضای باز (آفتابگیر)</string>
