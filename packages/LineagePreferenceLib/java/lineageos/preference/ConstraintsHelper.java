@@ -33,7 +33,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-import lineageos.hardware.LineageHardwareManager;
+import com.android.internal.lineage.hardware.LineageHardwareManager;
 import static lineageos.preference.R.styleable.lineage_SelfRemovingPreference_minSummaryLines;
 import static lineageos.preference.R.styleable.lineage_SelfRemovingPreference_replacesKey;
 

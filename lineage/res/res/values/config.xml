@@ -37,16 +37,6 @@
     <bool name="config_defaultCABC">true</bool>
     <bool name="config_defaultAntiFlicker">false</bool>
 
-    <!-- Display mode remapping table.
-         If the mode names returned by the backend do not match
-         the predefined and translated strings in the Settings
-         app, they can be remapped here. The format is
-         "oldname:newname", one per entry. -->
-    <string-array name="config_displayModeMappings" translatable="false" />
-
-    <!-- Should we filter any display modes which are unmapped? -->
-    <bool name="config_filterDisplayModes">false</bool>
-
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following capabilities present:
@@ -97,12 +87,9 @@
          should publish as a binder services in its onStart -->
     <string-array name="config_externalLineageServices">
         <item>org.lineageos.platform.internal.ProfileManagerService</item>
-        <item>org.lineageos.platform.internal.LineageHardwareService</item>
-        <item>org.lineageos.platform.internal.display.LiveDisplayService</item>
         <item>org.lineageos.platform.internal.TrustInterfaceService</item>
         <item>org.lineageos.platform.internal.LineageSettingsService</item>
         <item>org.lineageos.platform.internal.LineageGlobalActionsService</item>
-        <item>org.lineageos.platform.internal.health.HealthInterfaceService</item>
     </string-array>
 
     <!-- The LineageSystemServer class that is invoked from Android's SystemServer -->
