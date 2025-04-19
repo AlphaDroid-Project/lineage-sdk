@@ -7,13 +7,12 @@ package org.lineageos.internal.util;
 
 import android.content.ContentResolver;
 import android.os.UserHandle;
-
 import android.provider.Settings;
 
 public class DeviceKeysConstants {
     // Available custom actions to perform on a key press.
     // Must match values for KEY_HOME_LONG_PRESS_ACTION in:
-    //   sdk/src/java/lineageos/providers/LineageSettings.java
+    // android.provider.Settings
     public enum Action {
         NOTHING,
         MENU,
@@ -59,4 +58,3 @@ public class DeviceKeysConstants {
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 }
-
